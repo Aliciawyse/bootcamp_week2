@@ -1,0 +1,84 @@
+body {
+    height: 100vh;
+}
+
+.navbar {
+    margin-bottom: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+    border-bottom: 2px solid #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.navbar-brand {
+    background: #4aaaa5;
+    color: white;
+    font-size: 220%;
+    width: 300px;
+    text-align: center;
+    line-height: 60px;
+}
+
+a.navbar-brand {
+    height: 100%;
+}
+
+.navbar-nav>li>a {
+    line-height: 60px;
+    line-height: 60px;
+    font-size: 140%;
+    text-align: center;
+    color: #777777;
+}
+
+
+
+.my_border {
+    border-right: thin solid gainsboro;
+    border-left: thin solid gainsboro;
+}
+
+section {
+    height: 100%;
+    background: aliceblue;
+    padding-top: 1.5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+section div:nth-child(1) {
+    padding: 0;
+}
+
+section div:nth-child(2) {
+    padding: 0;
+    padding-left:2%;
+   }
+
+.first_box {
+    border: solid 1px #dddddd;
+    background: #ffffff;
+    height: 500px;
+}
+
+.second_box {
+    border: solid 1px #dddddd;
+    background: #ffffff;
+    height: 250px;
+    text-align: center;
+    color: #777777;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+hr {
+    margin: 5%;
+
+
+footer {
+    bottom: 0;
+    position: fixed;
+
+}
